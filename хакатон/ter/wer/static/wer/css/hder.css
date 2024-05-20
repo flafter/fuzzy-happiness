@@ -1,0 +1,18 @@
+body {
+    background: #BFEFE6;
+}
+.foto{
+    width: 100%;
+    height:500px; 
+    object-fit: cover;
+}
+.yte{
+    background: #40514E;  
+}
+.cards__list{
+    list-style: none ;
+}
+.cards__item{
+    background: #BFEFE6 ;
+    max-width: 350px;
+}

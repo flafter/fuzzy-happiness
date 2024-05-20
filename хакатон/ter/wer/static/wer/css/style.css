@@ -1,0 +1,48 @@
+
+
+
+/*.texxt{
+	width:40px;
+}*/
+/*.card_text{
+	width:20px;
+}*/
+.img_shayrma1{
+	width: 600px;
+}
+.img_shop{
+	width:400px;
+	height: 400px;
+	text-align: center;
+}
+.shop_title{
+	list-style: none;
+
+}
+.img_shaurmaa{
+	width: 200px;
+}
+/*.d-block w-100{
+	width: 300px;
+}*/
+.footer_img{
+	width: 600px;
+	height: 500px;
+	background:#BFEFE6;
+
+}
+
+.cards__item{
+	margin-left: 10px;
+
+}
+.cards__list{
+	display:flex;
+}
+
+.img_3{
+	width:400px;
+}
+
+
+

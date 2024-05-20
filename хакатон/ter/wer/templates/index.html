@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ШАУМРА</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CSS/accordion.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Dropdown
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Action</a></li>
+							<li><a class="dropdown-item" href="#">Another action</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<main class="main">
+		<section id=shop class="shop">
+			<div class="container">
+				<img class="img_shaurmaa"
+					src="https://fikiwiki.com/uploads/posts/2022-02/1644837291_9-fikiwiki-com-p-kartinki-pitoni-9.jpg">
+				<h1 class="texxt">Шопитон</h1>
+				<h1 class="shop_title">Шаумра</h1>
+
+				<div id="carouselExample" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="https://img.razrisyika.ru/kart/142/564008-shaurma-35.jpg" class="d-block w-100"
+								alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="https://lh5.googleusercontent.com/p/AF1QipOmozvMgO5qgYXPmbF4FZW8B2vkKJT4dXM0NGCj=w600-h420-p-k-no"
+								class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="https://klike.net/uploads/posts/2023-01/1674458981_3-12.jpg" class="d-block w-100"
+								alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="http://podacha-blud.com/uploads/posts/2022-06/1654221083_55-podacha-blud-com-p-fud-foto-shaurmi-foto-55.jpg"
+								class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+
+				<ul>
+					<li>
+						<div class="accordion" id="accordion">
+							<div class="accordion__item">
+								<p class="card_text">9шт</p>
+								<h2 class="accordion__header">Цена</h2>
+								<div class="accordion__body">
+									<p class="shop_price">
+										100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+										₽</p>
+									<button type="button" class="shop_btn" id="btn" onclick="buy()">Заказать</button>
+								</div>
+							</div>
+							<div class="card text-center  flex-row">
+								<div class="container d-flex justify-content-center">
+									<ul class="cards__list">
+										<li class="cards__item">
+											<img src="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663608291_51-mykaleidoscope-ru-p-shaurma-fud-instagram-54.jpg"
+												class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Шаумра</h5>
+												<p class="card-text">Шопитон лучшая шаурма</p>
+												<a href="#" class="btn btn-primary">ЗАКАЗАТЬ</a>
+											</div>
+										</li>
+										<li class="cards__item">
+											<img src="http://static.tildacdn.com/tild6636-6564-4264-a664-626337636237/___.jpg"
+												class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Шаумра</h5>
+												<p class="card-text">тоже очень хоршая шаумра</p>
+												<a href="#" class="btn btn-primary">ЗАКАЗАТЬ</a>
+											</div>
+										</li>
+										<li class="cards__item">
+											<img class="img_3"
+												src="https://abrakadabra.fun/uploads/posts/2022-01/1642149719_11-abrakadabra-fun-p-shaurma-na-zelenom-fone-14.jpg"
+												class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Шаумра</h5>
+												<p class="card-text">ЗАКАЗЫВАЙТЕ!!!!! А то питоны на вас обидятся</p>
+												<a href="#" class="btn btn-primary">ЗАКАЗАТЬ</a>
+											</div>
+										</li>
+									</ul>
+
+
+
+								</div>
+							</div>
+
+
+
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container_footer">
+			<img class="footer_img" src="img/piton3.jpg">
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/accordion.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

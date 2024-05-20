@@ -1,0 +1,71 @@
+
+.telo{
+    background: #BFEFE6;
+}
+.navbar{
+    width: 100%;
+}
+.carousel_wraper{
+    width: 80%;
+    margin: auto;
+}
+.carousel-inner{
+    margin-top: 32px;
+}
+.maps,
+.carousel-control-prev{
+    background: #40514E;
+}
+.base{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    width: 40%;
+}
+.nav_item{
+    margin-right: 16px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.name_shaurm{
+    margin-left: 25px;
+    background-image: url("../img/image.png");
+    padding: 130px;
+    background-repeat: no-repeat;
+    color: white;
+    margin: auto;
+}
+.container_wraper{
+    display: flex;
+    flex-direction: row;
+}
+.active{
+    display: block;
+}
+.shop_img{
+    width: 100%;
+}
+.navbar_bg{
+    --bs-bg-opacity: 1;
+    background: #40514E;
+}
+.container-fluids{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
